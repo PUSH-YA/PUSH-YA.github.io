@@ -8,13 +8,11 @@ I am a UBC student pursuing a major in computer science and minor in data scienc
 
 I am a natural student (passionate about learning new things) and I have tried to incorporate most of it in my projects listed below
 
-```markdown
-Syntax highlighted code block
-- A course management system which schedules your homework with a functional GUI in java
-- A knn classification model for predicting wine quality scores based on its chemical properties in R
-- A tic toe game player played through console and using 2D arrays in python
-- A lab time scheduler which will assign ta's to lab slots using a generational recursive algorithm
-```
+- ```A course management system``` schedules your homework and keeps track with your academic progress with a functional GUI in  ```java  ```
+- ```A knn classification model``` for predicting wine quality scores based on its chemical properties in   ```R```
+- ```A tic toe game player``` played through console and using 2D arrays in ```python```
+- ```A lab time scheduler``` which will assign ta's to lab slots using a generational recursive algorithm 
+
 
 ### Currently working on
 
