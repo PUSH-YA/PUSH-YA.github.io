@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Welcome to my site :)
 
-You can use the [editor on GitHub](https://github.com/PUSH-YA/PUSH-YA.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+I am sorry for all this but it still under construction!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### About me
 
-### Markdown
+I am a UBC student pursuing a major in computer science and minor in data science. I have always had a keen interest in math, economics, physics and other quantitative subjects. I am continuing my interest in quantitative fields to break into a career in tech. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I am a natural student (passionate about learning new things) and I have tried to incorporate most of it in my projects listed below
 
 ```markdown
 Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- A course management system which schedules your homework with a functional GUI in java
+- A knn classification model for predicting wine quality scores based on its chemical properties in R
+- A tic toe game player played through console and using 2D arrays in python
+- A lab time scheduler which will assign ta's to lab slots using a generational recursive algorithm
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Currently working on
 
-### Jekyll Themes
+I am currently trying to further learn about data structures and algorithms in java, using python for data analysis and data science and fundamentals of java script
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PUSH-YA/PUSH-YA.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Contact
+**[my resume](https://drive.google.com/file/d/1p7Dvhi47BdEXuLdkbd-mN7lQY_TkjPvk/view?usp=sharing)**
+You can find me on [github](https://github.com/PUSH-YA) or [linkedin](https://www.linkedin.com/in/pushya-jain-4546a6150/) or get in touch with me directly on my [email](mailto:pushya22.jain@gmail.com)
