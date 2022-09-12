@@ -1,6 +1,6 @@
 ## Welcome to my site :) 
 
-![Under-Construction-Sign](https://user-images.githubusercontent.com/91928008/189604764-0ca06149-dc89-46d7-9e52-e5fa3bb23ed1.png)
+![Under-Construction-Sign](https://user-images.githubusercontent.com/91928008/189604764-0ca06149-dc89-46d7-9e52-e5fa3bb23ed1.png = 50*50)
 I am sorry for all this but it still under construction!
 
 ### About me
