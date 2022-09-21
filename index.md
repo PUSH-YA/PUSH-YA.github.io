@@ -20,6 +20,6 @@ I am a natural student (passionate about learning new things) and I have tried t
 I am currently trying to further learn about data structures and algorithms in C++, completing Google data analytics certificate and learning data science fundamentals in python
 
 ### Contact
-[my resume][https://drive.google.com/file/d/1-gQchlAUzPYZRY34emxfhDWYqG1WYoSh/view?usp=sharing]
+[my resume](https://drive.google.com/file/d/1-gQchlAUzPYZRY34emxfhDWYqG1WYoSh/view?usp=sharing)
 
 You can find me on [github](https://github.com/PUSH-YA) or [linkedin](https://www.linkedin.com/in/pushya-jain-4546a6150/) or get in touch with me directly on my [email](mailto:pushya22.jain@gmail.com)
