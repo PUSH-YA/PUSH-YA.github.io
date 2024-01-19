@@ -6,8 +6,7 @@
     - name: Label
       value: computer and data science student
     - name: Email
-      website:
-        url: pushya22.jain@gmail.com
+      value: pushya22.jain@gmail.com
     - name: Summary
       value: 3rd year UBC student who is passionate about quantitative analysis and problem solving techniques.
 
