@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Experience
+title: news
 permalink: /news/
 ---
 
