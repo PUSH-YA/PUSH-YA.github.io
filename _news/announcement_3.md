@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-09-09 12:09:42
+date: 2016-01-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Started working as an undergraduate TA for CPSC 110 (Computation, Program, and Programming).
+A simple inline announcement with Markdown emoji! :sparkles: :smile:
