@@ -23,7 +23,7 @@
     {
       "name": "IFirst nations health authority",
       "position": "Business intelligence and data warehousing intern",
-      "url": "https://example.com",
+      "url": "https://www.fnha.ca/",
       "startDate": "2024-01-08",
       "endDate": "2024-05-08",
       "summary": [
@@ -31,7 +31,7 @@
         "multidimensional analysis and dashboards using powerBI, Tableau, SSAS, SSRS",
         "data profiling to find errors, proposing and implementing solutions"
       ],
-      "Skills learned": ["SSIS", "SSAS", "SSRS", "PowerBI", "Tableau", "ETL", "Dashboards"]
+      "learned": ["SSIS", "SSAS", "SSRS", "PowerBI", "Tableau", "ETL", "Dashboards"]
     }
   ],
   "volunteer": [
@@ -42,10 +42,7 @@
       "startDate": "2014-04-01",
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": [
-        "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.",
-        "Men of the year 2014 by Time magazine"
-      ]
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
     }
   ],
   "education": [
@@ -58,9 +55,7 @@
       "startDate": "1905-01-01",
       "endDate": "1905-01-01",
       "score": "10",
-      "courses": [
-        "Theory of Relativity"
-      ]
+      "courses": ["Theory of Relativity"]
     }
   ],
   "awards": [
@@ -196,10 +191,7 @@
     {
       "name": "Quantum Computing",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": [
-        "Quantum Teleportation",
-        "Quantum Cryptography"
-      ],
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
       "startDate": "2018-01-01",
       "endDate": "2018-01-01",
       "url": "https://example.com"
