@@ -15,7 +15,7 @@ profile:
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -25,8 +25,6 @@ I am a 3rd-year computer science student (at [UBC](https://www.ubc.ca/)) with a 
 
 I have provided links to my social media below if you want to contact me.
 
-Here are some cool visualisations for you that intrigued me during my learning journey (especially in the realm of data science) 😊.
+Here is a cool visualisations for too keep you entertained, that I found during my learning journey (especially in the realm of data science) 😊.
 
 ![](https://raw.githubusercontent.com/Jeanselme/VisualizerTransformation/master/images/iris.gif)
-
-<img src="https://github.com/PUSH-YA/PUSH-YA/assets/91928008/305493f2-3ce5-4b95-b834-26791d9530a4" width="400"/>|
