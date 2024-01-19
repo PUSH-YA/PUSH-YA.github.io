@@ -1,7 +1,7 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Pushya Jain
     - name: Label
       value: computer and data science student
@@ -15,7 +15,7 @@
   contents:
     - title: Business intelligence and data warehousing intern
       institution: First nations health authority
-      year: 01.2024 - 05.2024
+      year: 01/24-05/24
       description:
         - Performed data integration by building, implementing, and maintaining ETL's (extract transform, and load). 
         - Performed multidimensional data analysis and modelling to create interactive dashboards for clients.
@@ -27,7 +27,7 @@
             - Dashboards with SSRS, PowerBI, Tableau
     - title: Undergraduate Teaching assistant
       institution: CS and Maths department at UBC
-      year: 09.2022 - 12.2023
+      year: 09/22-12/23
       description:
         - Responsible for teaching CPSC110 (Computation, programs and programming) to freshman students.
         - Responsible for teaching math 100 (calculus I) and math 101 (calculus 2) to freshman students.
@@ -39,7 +39,7 @@
             - Communication, Teaching, Collaboration
     - title: Student Technician Rover
       institution: IT Sauder at UBC
-      year: 09.2022 - 08.2023
+      year: 09/22 - 08/23
       description:
         - Responsible for handling certain IT issues in the Henry Angus Building in the campus.
         - Performing IT checks to ensure the classes run smoothly.
@@ -49,7 +49,7 @@
             - IT service management, Communication, Problem Solving, Detail orientation
     - title: Summer intern
       institution: Nestle Konolfingen
-      year: 07.2019 - 08.2019
+      year: 07/19 - 08/19
       description:
         - Performed data cleaning and wrangling on several excel sheets for the Dairy sector in the Nestle Konolfingen office.
         - Help validate data by ensuring consistent data formatting across several different documents.
@@ -63,7 +63,7 @@
   contents:
     - title: Charity founder 
       institution: International school of Berne (ISBerne)
-      year: 08.2019 - 02.2021
+      year: 08/19 - 02/21
       description:
         - ISB Philanthropy organisation was responsible for raising money for BM Twin School in Ethiopia.
         - Funds would  help them to continue their education (Especially during the COVID19).
@@ -74,9 +74,9 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Bachelors of Science
+      institution: University of British Columbia
+      year: 08/21-05/26
       description:
         - Description 1.
         - Description 2.
