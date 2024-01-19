@@ -1,12 +1,15 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - PUSH-YA
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - PUSH-YA/Computer_graphics_learning
+  - PUSH-YA/Health_insurance_stat_modelling
+  - PUSH-YA/AI_search_genetic
+  - PUSH-YA/Maths_for_Data_Science_learning
+  - PUSH-YA/pygame_trial
+  - PUSH-YA/Learning-julia-process
+  - PUSH-YA/Credit_card_default_classifier
+  - PUSH-YA/my_kirby_game
+  - PUSH-YA/CourseManagementApp
+  - PUSH-YA/Statistical-inference-on-vancouver-crime-data
+  - PUSH-YA/PingPong
