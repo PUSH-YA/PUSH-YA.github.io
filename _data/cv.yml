@@ -2,11 +2,13 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Pushya Jain
+    - name: Lavel
+      value: computer and data science student
+    - name: Email
+      value: pushya22.jain@gmail.com
+    - name: Summary
+      value: 3rd year UBC student who is passionate about quantitative analysis and problem solving techniques.
 
 - title: Education
   type: time_table
