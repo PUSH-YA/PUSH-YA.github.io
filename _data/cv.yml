@@ -113,14 +113,7 @@
             - Software construction, Intermediate algorithms and analysis, Computer systems, Computer graphics
             - Statistics modelling for data science, Data mining and Machine Learning, Intro to AI
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Hobbies
+- title: Other interests
   type: list
   contents:
     - <u>Hobbies:</u> wood carving, wood burning, hiking, mathematical art (Desmos), board / card games. 
