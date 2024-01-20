@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>BI/DW intern at fnha</p>
+    <p>BI/DW intern at FNHA</p>
     <p>UBC student, CS+DSCI</p>
     <p>Vancouver, British Columbia</p>
 

@@ -7,6 +7,8 @@
       value: computer and data science student
     - name: Email
       value: pushya22.jain@gmail.com
+    - name: Linkedin
+      value: <a href="https://www.linkedin.com/in/pushya-jain-4546a6150/">pushya jain</a>
     - name: Summary
       value: 3rd year UBC student who is passionate about quantitative analysis and problem solving techniques.
 
@@ -15,7 +17,7 @@
   contents:
     - title: Business intelligence and data warehousing intern
       institution: First nations health authority
-      year: 01/24-05/24
+      year: 01/24 - Present
       description:
         - Performed data integration by building, implementing, and maintaining ETL's (extract transform, and load).
         - Performed multidimensional data analysis and modelling to create interactive dashboards for clients.
@@ -27,10 +29,10 @@
             - Dashboards with SSRS, PowerBI, Tableau
     - title: Undergraduate Teaching assistant
       institution: CS and Maths department at UBC
-      year: 09/22-12/23
+      year: 09/22 - 12/23
       description:
         - Responsible for teaching CPSC110 (Computation, programs and programming) to freshman students.
-        - Responsible for teaching math 100 (calculus I) and math 101 (calculus 2) to freshman students.
+        - Responsible for teaching MATH100 (calculus I) and 101 (calculus 2) to freshman students.
         - Conducted tutorials and labs to help students better understand the learning material.
         - Break down complex abstract concepts and communicated effectively to a large diverse audience.
         - title: Learned
@@ -70,26 +72,46 @@
         - title: Learned
           contents:
             - Communication, Time management, Financial management, Conflict resolution
+    - title: Laboratory assistant
+      institution: International school of Berne (ISBerne)
+      year: 02/19 - 06/21
+      description:
+        - Responsible for setting up the high school laboratory experiments for the biology, chemistry and physics department.
+        - Responsible for taking care of the apparatus as well as measuring and keeping track of the state if the experiments.
+        - title: Learned
+          contents:
+            - Organisation, Problem solving, Experimentation and Documentation, Data collection
+    - title: Technical AI exec
+      institution: UBC AI club
+      year: 09/23 - present
+      description:
+        - Developing a comprehensive AI and Machine Learning curriculum for diverse audience.
+        - Organizing and conducting workshops to educate club members on practical AI/ML tool usage within their respective domains.
+        - Collaborating with industry professionals and subject matter experts to arrange talks and lectures.
+        - Hosting case-solving competitions that enable members to apply their acquired skills in real-world scenarios.
+        - title: Learned
+          contents:
+            - Designing curriculums, Teaching, Presentation, Planning and management. 
+            - Communication, Collaboration, Networking.
+
 
 - title: Education
   type: time_table
   contents:
-    - title: Bachelors of Science
+    - title: Computer science (data science minor)
       institution: University of British Columbia
       year: 08/21-05/26
       description:
-        - Description 1.
+        - 3rd year student 
         - Description 2.
-        - title: Description 3.
+        - title: achievements
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+            - Faculty of Student International Scholarship
+            - Trek Scholarship award
+        - title: relevant courses
+          contents:
+            - Software construction, Intermediate algorithms and analysis, Computer systems, Computer graphics
+            - Statistics modelling for data science, Data mining and Machine Learning, Intro to AI
 
 - title: Open Source Projects
   type: time_table
@@ -98,30 +120,7 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Hobbies
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> wood carving, wood burning, hiking, mathematical art (Desmos), board / card games. 
