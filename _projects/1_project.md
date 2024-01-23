@@ -8,4 +8,3 @@ redirect: https://github.com/PUSH-YA/NWHacks2024_final_app
 category: data-science
 giscus_comments: true
 ---
-

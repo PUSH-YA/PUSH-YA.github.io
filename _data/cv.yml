@@ -91,9 +91,8 @@
         - Hosting case-solving competitions that enable members to apply their acquired skills in real-world scenarios.
         - title: Learned
           contents:
-            - Designing curriculums, Teaching, Presentation, Planning and management. 
+            - Designing curriculums, Teaching, Presentation, Planning and management.
             - Communication, Collaboration, Networking.
-
 
 - title: Education
   type: time_table
@@ -102,7 +101,7 @@
       institution: University of British Columbia
       year: 08/21-05/26
       description:
-        - 3rd year student 
+        - 3rd year student
         - Description 2.
         - title: achievements
           contents:
@@ -116,4 +115,4 @@
 - title: Other interests
   type: list
   contents:
-    - <u>Hobbies:</u> wood carving, wood burning, hiking, mathematical art (Desmos), board / card games. 
+    - <u>Hobbies:</u> wood carving, wood burning, hiking, mathematical art (Desmos), board / card games.
