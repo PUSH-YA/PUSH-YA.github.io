@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-09-09 12:09:42
+date: 2024-01-01 12:09:42
 inline: true
 related_posts: false
 ---
 
-Started working as an undergraduate TA for CPSC 110 (Computation, Program, and Programming) at University of British Columbia (UBC).
+Got accepted into <a href ="https://portal.nwplus.io/">NwHacks 2024</a>.
