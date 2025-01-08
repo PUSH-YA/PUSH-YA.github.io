@@ -108,8 +108,8 @@
             - Trek Scholarship award
         - title: relevant courses
           contents:
-          - Databases, Computer Vision, Data Mining and Machine Learning, Randomised algorithms
-          - Statistical modelling, Time series and analysis, Statistical inference, Stochastic processes
+            - Databases, Computer Vision, Data Mining and Machine Learning, Randomised algorithms
+            - Statistical modelling, Time series and analysis, Statistical inference, Stochastic processes
 
 - title: Other interests
   type: list

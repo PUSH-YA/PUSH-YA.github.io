@@ -8,8 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: 
-    <p>UBC student, CS+STAT (DSCI)</p>
+  more_info: <p>UBC student, CS+STAT (DSCI)</p>
     <p>BI/DW intern at FNHA</p>
     <p>Vancouver, British Columbia</p>
 
