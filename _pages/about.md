@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: business intelligence and data warehousing intern at first nations health authority
+subtitle: Computer Science and Statistics Student
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
-  more_info: >
+  more_info: 
+    <p>UBC student, CS+STAT (DSCI)</p>
     <p>BI/DW intern at FNHA</p>
-    <p>UBC student, CS+DSCI</p>
     <p>Vancouver, British Columbia</p>
 
 news: true # includes a list of news items
@@ -21,7 +21,7 @@ social: true # includes social icons at the bottom of the page
 
 Hello! My name is Pushya Jain.
 
-I am a 3rd-year computer science student (at [UBC](https://www.ubc.ca/)) with a lot of passion for developing his analytical and quantitative skills and a quick learner. I am currently pursuing a degree in a bachelor of science, a major in Computer Science and minor in Data Science.
+I am a 4th-year BSc student majoring in computer science and statistics with a minor in data science (at [UBC](https://www.ubc.ca/)). I have lot of passion for developing my analytical and quantitative skills.
 
 I have provided links to my social media below if you want to contact me.
 

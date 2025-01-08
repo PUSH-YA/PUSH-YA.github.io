@@ -4,13 +4,13 @@
     - name: Name
       value: Pushya Jain
     - name: Label
-      value: computer and data science student
+      value: computer and Statistics student
     - name: Email
       value: pushya22.jain@gmail.com
     - name: Linkedin
       value: <a href="https://www.linkedin.com/in/pushya-jain-4546a6150/">pushya jain</a>
     - name: Summary
-      value: 3rd year UBC student who is passionate about quantitative analysis and problem solving techniques.
+      value: 4th year UBC student who is passionate about quantitative analysis and problem solving techniques.
 
 - title: Experience
   type: time_table
@@ -31,7 +31,7 @@
       institution: CS and Maths department at UBC
       year: 09/22 - 12/23
       description:
-        - Responsible for teaching CPSC110 (Computation, programs and programming) to freshman students.
+        - Responsible for teaching CPSC110 (Computation, programs and programming) and CPSC 322 (Intro to AI) to freshman students.
         - Responsible for teaching MATH100 (calculus I) and 101 (calculus 2) to freshman students.
         - Conducted tutorials and labs to help students better understand the learning material.
         - Break down complex abstract concepts and communicated effectively to a large diverse audience.
@@ -101,16 +101,15 @@
       institution: University of British Columbia
       year: 08/21-05/26
       description:
-        - 3rd year student
-        - Description 2.
+        - 4th year student
         - title: achievements
           contents:
             - Faculty of Student International Scholarship
             - Trek Scholarship award
         - title: relevant courses
           contents:
-            - Software construction, Intermediate algorithms and analysis, Computer systems, Computer graphics
-            - Statistics modelling for data science, Data mining and Machine Learning, Intro to AI
+          - Databases, Computer Vision, Data Mining and Machine Learning, Randomised algorithms
+          - Statistical modelling, Time series and analysis, Statistical inference, Stochastic processes
 
 - title: Other interests
   type: list
