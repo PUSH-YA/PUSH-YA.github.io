@@ -3,21 +3,21 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"push-ya.github.io",
+  "homepage": "push-ya.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploye":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploye": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.13",
     "@tailwindcss/vite": "^4.1.13",
     "gh-pages": "^6.3.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
     "react-router-dom": "^7.9.3"
   },
   "devDependencies": {
