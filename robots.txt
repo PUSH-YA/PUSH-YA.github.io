@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://push-ya.github.io/sitemap.xml
