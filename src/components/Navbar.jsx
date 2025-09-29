@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 function Navbar() {
 
     const [theme, setTheme] = useState('light'); // Default to light theme
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   // match window theme 
 	useEffect(() => {
@@ -63,55 +64,142 @@ function Navbar() {
 		</svg>
 	);
 
+    const hamburgerIcon = (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+            stroke="currentColor"
+            className="w-6 h-6"
+        >
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+        </svg>
+    );
+
+    const closeIcon = (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={2}
+            stroke="currentColor"
+            className="w-6 h-6"
+        >
+            <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+            />
+        </svg>
+    );
+
+    const toggleMobileMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
+    const closeMobileMenu = () => {
+        setIsMobileMenuOpen(false);
+    };
+
     return (
-        <nav className="fixed top-0 left-10 right-10 z-20 
-        flex bg-stone-100 dark:bg-stone-900 items-center justify-between font-semibold px-4 py-2">
+        <>
+        <nav className="fixed top-0 left-2 right-2 sm:left-6 sm:right-6 lg:left-10 lg:right-10 z-20 
+        flex bg-stone-100 dark:bg-stone-900 items-center justify-between font-semibold px-3 py-2 sm:px-4 rounded-b-lg shadow-lg">
             {/* Left side: Home */}
-            <div className="mx-5">
+            <div className="flex items-center">
                 <Link
                     to="/"
-                    className="mr-6 text-black dark:text-white transform transition-all
+                    className="text-black dark:text-white transform transition-all
                     duration-200 ease-in-out hover:text-violet-400 dark:hover:text-blue-400 hover:scale-105 hover:drop-shadow-lg inline-block"
-                    >
-                        <img src="/assets/pfp.png" alt="Profile" className="w-12 h-12 rounded-full hover:scale-110" />
+                    onClick={closeMobileMenu}
+                >
+                    <img src="/assets/pfp.png" alt="Profile" className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full hover:scale-110 transition-transform duration-200" />
                 </Link>
             </div>
 
-            {/* Right side: Resume, Courses, Projects */}
-            <div className="flex flex-row space-x-6 mx-5">
+            {/* Desktop Navigation - Hidden on mobile */}
+            <div className="hidden md:flex flex-row items-center space-x-4 lg:space-x-6">
                 <Link
                     to="/resume"
-                    className="text-black dark:text-white transform transition-all
+                    className="text-black dark:text-white text-sm lg:text-base transform transition-all
                     duration-200 ease-in-out hover:text-violet-400 dark:hover:text-blue-400 hover:scale-110 hover:drop-shadow-lg inline-block"
-                    >
+                >
                     Resume
                 </Link>
                 <Link
                     to="/projects"
-                    className="text-black dark:text-white transform transition-all
+                    className="text-black dark:text-white text-sm lg:text-base transform transition-all
                     duration-200 ease-in-out hover:text-violet-400 dark:hover:text-blue-400 hover:scale-105 hover:drop-shadow-lg inline-block"
-                    >
+                >
                     Projects
                 </Link>
-                {/* DONT WANNA USE GETFORM'S 25 SUBMISSIONS  */}
-                {/* <Link
-                    to="/contact"
-                    className="text-black dark:text-white transform transition-all
-                    duration-200 ease-in-out hover:text-violet-400 dark:hover:text-blue-400 hover:scale-105 hover:drop-shadow-lg inline-block"
-                    >
-                    Contact
-                </Link> */}
-
-                {/* dark mode button */}
+                
+                {/* Dark mode button for desktop */}
                 <button
-                        type="button"
-                        onClick={handleThemeSwitch}
-                        className="bg-violet-400 dark:bg-blue-400 text-lg p-1 rounded-md hover:scale-110"
-                    >
-                        {theme === 'dark' ? sun : moon}
+                    type="button"
+                    onClick={handleThemeSwitch}
+                    className="bg-violet-400 dark:bg-blue-400 text-lg p-1.5 lg:p-2 rounded-md hover:scale-110 transition-transform duration-200"
+                >
+                    {theme === 'dark' ? sun : moon}
+                </button>
+            </div>
+
+            {/* Mobile Navigation - Right side */}
+            <div className="md:hidden flex items-center space-x-3">
+                {/* Dark mode button for mobile */}
+                <button
+                    type="button"
+                    onClick={handleThemeSwitch}
+                    className="bg-violet-400 dark:bg-blue-400 p-1.5 rounded-md hover:scale-110 transition-transform duration-200"
+                >
+                    {theme === 'dark' ? sun : moon}
+                </button>
+                
+                {/* Hamburger menu button */}
+                <button
+                    type="button"
+                    onClick={toggleMobileMenu}
+                    className="text-black dark:text-white p-1 hover:text-violet-400 dark:hover:text-blue-400 transition-colors duration-200"
+                >
+                    {isMobileMenuOpen ? closeIcon : hamburgerIcon}
                 </button>
             </div>
         </nav>
+
+        {/* Mobile Menu Overlay */}
+        {isMobileMenuOpen && (
+            <div className="fixed inset-0 z-10 md:hidden">
+                {/* Backdrop */}
+                <div 
+                    className="fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300"
+                    onClick={closeMobileMenu}
+                ></div>
+                
+                {/* Mobile Menu */}
+                <div className="fixed top-16 left-2 right-2 sm:left-6 sm:right-6 bg-stone-100 dark:bg-stone-900 rounded-lg shadow-xl p-4 space-y-4">
+                    <Link
+                        to="/resume"
+                        className="block text-black dark:text-white text-lg py-3 px-2 rounded-lg hover:bg-stone-200 dark:hover:bg-stone-800 hover:text-violet-400 dark:hover:text-blue-400 transition-all duration-200"
+                        onClick={closeMobileMenu}
+                    >
+                        Resume
+                    </Link>
+                    <Link
+                        to="/projects"
+                        className="block text-black dark:text-white text-lg py-3 px-2 rounded-lg hover:bg-stone-200 dark:hover:bg-stone-800 hover:text-violet-400 dark:hover:text-blue-400 transition-all duration-200"
+                        onClick={closeMobileMenu}
+                    >
+                        Projects
+                    </Link>
+                </div>
+            </div>
+        )}
+        </>
     );
 }
 

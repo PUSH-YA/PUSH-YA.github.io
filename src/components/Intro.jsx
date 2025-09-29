@@ -13,7 +13,7 @@ function Intro() {
                     Data scientist & ML researcher
                 </p>
             
-                <div className="flex flex-center items-center">
+                <div className="flex-col md:flex md:flex-row flex-center items-center">
                     <p className="text-base max-w-xl mb-6 mt-6 mr-10 ml-10 font-medium">
                         I am a 4th-year BSc student majoring in computer science and statistics
                         with a minor in data science (at UBC). <br /> <br />
