@@ -1,5 +1,53 @@
 
+// Cache configuration
+const CACHE_KEY = 'github_projects_cache';
+const CACHE_DURATION = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+
+// Check if cached data is still valid
+function isCacheValid(timestamp) {
+    return Date.now() - timestamp < CACHE_DURATION;
+}
+
+// Get cached data from localStorage
+function getCachedData() {
+    try {
+        const cached = localStorage.getItem(CACHE_KEY);
+        if (cached) {
+            const { data, timestamp } = JSON.parse(cached);
+            if (isCacheValid(timestamp)) {
+                console.log('Using cached GitHub projects data');
+                return data;
+            }
+        }
+    } catch (error) {
+        console.error('Error reading cache:', error);
+    }
+    return null;
+}
+
+// save data to client's localStorage so refreshing does not 
+function setCachedData(data) {
+    try {
+        const cacheObject = {
+            data: data,
+            timestamp: Date.now()
+        };
+        localStorage.setItem(CACHE_KEY, JSON.stringify(cacheObject));
+        console.log('GitHub projects data cached successfully');
+    } catch (error) {
+        console.error('Error saving to cache:', error);
+    }
+}
+
 async function fetchStarredProjects() {
+    // Check cache first
+    const cachedData = getCachedData();
+    if (cachedData) {
+        return cachedData;
+    }
+
+    console.log('Fetching fresh GitHub projects data...');
+    
     try {
         const response = await fetch('https://api.github.com/users/PUSH-YA/repos?sort=updated&per_page=100');
         const repos = await response.json();
@@ -46,11 +94,23 @@ async function fetchStarredProjects() {
             })
         );
         
+        // Cache the successful result
+        setCachedData(pinnedRepos);
+        
         return pinnedRepos;
     } catch (error) {
         console.error('Error fetching GitHub repos:', error);
+        
+        // Try to return cached data even if it's expired as fallback
+        const fallbackCache = getCachedData();
+        if (fallbackCache) {
+            console.log('Using expired cache as fallback due to API error');
+            return fallbackCache;
+        }
+        
         return [];
     }
 }
 
-export default await fetchStarredProjects();
+// Export the function, not the awaited result
+export default fetchStarredProjects;
