@@ -4,6 +4,12 @@ async function fetchStarredProjects() {
         const response = await fetch('https://api.github.com/users/PUSH-YA/repos?sort=updated&per_page=100');
         const repos = await response.json();
         
+        // if repos is an array and response was successful
+        if (!Array.isArray(repos)) {
+            console.error('GitHub API response is not an array:', repos);
+            return [];
+        }
+        
         // can't filter for pinned so currently getting all starred projects
         const pinnedRepos = await Promise.all(
             repos
