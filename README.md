@@ -36,10 +36,14 @@ Some other features I wanted and added:
 ### 3D Objects
 - There were certain 3D objects that exudes my personality really well:
   - Little 3D robot that takes some stuff out and I personally thought it was very reminiscent of the old 90s movies of creating AI and doing hacking so I liked it a lot
-    - 
+  
+  https://github.com/user-attachments/assets/dbac4820-2381-4c5d-9331-69d28e9b883a
+
     - Available on sketch fab: [Robot playground link](https://sketchfab.com/3d-models/robot-playground-59fc99d8dcb146f3a6c16dbbcc4680da)
   - Little sweeping robot that I animated to move from side to side to show I am cleaning up my projects or cleaning up my website
-    - 
+  
+  https://github.com/user-attachments/assets/49fda466-17bc-468b-8685-d26ca00a4a23
+
     - Available on SketchFab: [Autonomous Robot Sweeper](https://sketchfab.com/3d-models/autonomous-robot-sweeper-0d285c3d015a4573ae1100d298935cb9)
     - This robot is also used to show `error 404` page
   - All of these scenes had a synchornous issue and required the 3D scenes to be loaded asynchronously but I also wanted to convey an object will be present there so I added a temporary placeholder (a black cube) which is then replaced by the loaded 3D objects 
