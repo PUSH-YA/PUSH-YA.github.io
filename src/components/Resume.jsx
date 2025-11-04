@@ -2,7 +2,7 @@ import React from 'react';
 
 const Resume = () => {
 
-    const fileId = "1bKnDMPOPdcWpx4eJeeFIUOFHc1df-3eD";
+    const fileId = "1bnL-oTPta38X2KC_G3W96tqFA6B6Yvg3";
     const embedUrl = `https://drive.google.com/file/d/${fileId}/preview`;
     const viewUrl = `https://drive.google.com/file/d/${fileId}/view`;
 
